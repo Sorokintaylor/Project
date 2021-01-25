@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/1c/94/84/1c948486052af80b2370a73cb7f02c23.jpg");
+}
+
+.header {
+    background-image: linear-gradient(to top, #ff0000, #996633);
+    display: inline-block;
+    font-size: 5em;
+    padding: 25px;
+    border: outset grey;
+    font-family: 'Goldman', cursive;
+    color: #000000;
+
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.wed {
+    height: 100px;
+}
+
+.Youtube {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin:25px;
+
+
+}
+
+
+.peers {
+    display: flex;
+
+    padding: 50px;
+    flex-direction: row;
+    border: solid;
+}
+
+.pictures {
+    border: solid;
+
+    padding: 5px;
+    justify-content: space-around;
+    background-color: white;
+
+}
+
+.pew {
+
+    border-radius: 50%;
+}
+
+.quotes {
+    border: solid;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.links:hover {
+    border: solid;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: cyan;
+    margin: 10px;
+}
+
+.text {
+    border: outset grey;
+    background-color: cyan;
+    padding: 15px;
+    font-family: 'Xanh Mono', monospac;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 300px;
+    align-content: center;
+    border: solid;
+    margin:10px;
+}
+
+.life {
+    border: solid black;
+    background-color: red;
+    padding: 5px;
+    font-family: 'Big Shoulders Inline Text', cursive;
+}
+mark{
+background-color:red;
+    color:white;
+}
